@@ -1,0 +1,11 @@
+body{
+    margin: 0px;
+    padding: 0%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    padding-left:20%;
+    padding-top: 10px;
+
+}
