@@ -3,14 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JUEGO_!</title>
-    <link rel="shortcut icon" href="https://cdn.phaser.io/layouts/phaser2024/images/nav-logo.png">
+    <title>Squiva</title>
+    <link rel="shortcut icon" href="4.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+    <figure>
+        <a href="https://phaser.io/" target="_blank">
+            <img src="https://cdn.phaser.io/layouts/phaser2024/images/nav-logo.png" alt="Phaser Logo">
+            <figcaption>Powered by Phaser</figcaption>
+        </a>
+    </figure>
+    <audio autoplay loop>
+        <source src="/music.mp3" type="audio/mp3">
+    </audio>
+    
+    <div class="avisoRecord" id="recordd">Breaking Records</div>
+    <div class="aviso">
+        <h2>Perdisteee</h2>
+        <button>restart</button>
+        <div class="score"></div>
+        <div class="Maxscore"></div>
+    </div>
 
     <script src="phaser.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
